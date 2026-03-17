@@ -7,4 +7,4 @@ select
     shipped_date,
     ship_city,
     ship_country
-from public.orders
+from {{source('northwind','orders')}}

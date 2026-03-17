@@ -10,4 +10,4 @@ SELECT
 	, country
 	, phone
 	, fax
-FROM public.customers
+FROM {{ source('northwind','customers') }}
