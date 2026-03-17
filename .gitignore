@@ -4,3 +4,4 @@ dbt_packages/
 .venv/
 .env
 .DS_Store
+dbt_internal_packages/
